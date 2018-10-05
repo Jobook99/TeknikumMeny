@@ -1,0 +1,126 @@
+body{
+    background-color: #90CAF9;
+}
+.main{
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+    grid-template-rows: auto auto 50px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.header_main{
+    background-color: #01579B;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+.header{
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+}
+.meny_main{
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.day_meny{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+.day_one_meny{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.day_two_meny{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.day_three_meny{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.day_four_meny{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+.day_five_meny{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+.button_meny{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+}
+.button_meny_one{
+    background-color: #0097A7;
+}
+.button_meny_two{
+    background-color: #00ACC1;
+}
+.button_meny_three{
+    background-color: #00BCD4;
+}
+.button_meny_four{
+    background-color: #26C6DA;
+}
+.button_meny_five{
+    background-color: #4DD0E1;
+}
+.day_meal{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+}
+.day_meal_alt{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    height: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+.show_day_left{
+    border-radius: 1000px 0px 0px 1000px;
+    height: 50px;
+    width: 100%;
+}
+.show_day_right{
+    border-radius: 0px 1000px 1000px 0px;
+    height: 50px;
+    width: 100%;
+}
+.this_week{
+    height: auto;
+    width: auto;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: #01579B;
+    padding: 10px;
+    border-radius: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+.this_day{
+    height: auto;
+    width: auto;
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: #01579B;
+    padding: 10px;
+    border-radius: 0px 10px 0px 0px;
+    font-size: 20px;
+}
